@@ -1,0 +1,15 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color:#F18F01;
+    background-color:#99C24D;
+}
+.jumbotron {
+    background-color: #048BA8;
+    color: #99C24D;
+}
+.panel-heading {
+    background-color: #048BA8;
+}
+.panel {
+    background-color:#2E4057;
+}
