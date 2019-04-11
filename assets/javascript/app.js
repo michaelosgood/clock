@@ -1,6 +1,6 @@
 // Clock Function
 (function () {
-    var clockElement = document.getElementById("clock");
+    let clockElement = document.getElementById("local-clock");
     function updateClock(clock) {
       clock.innerHTML = new Date().toLocaleTimeString();
     }
@@ -8,4 +8,3 @@
         updateClock(clockElement);
     }, 1000);
   }());
-  
